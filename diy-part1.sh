@@ -32,7 +32,7 @@ rm -rf ./package/lean/luci-app-jd-dailybonus
 rm -rf ./feeds/luci/applications/luci-app-rp-pppoe-server
 
 # echo '修改 默认IP'
-sed -i "s/192.168.1.1/192.168.31.1/g" package/base-files/files/bin/config_generate
+sed -i "s/192.168.1.1/192.168.123.2/g" package/base-files/files/bin/config_generate
 # echo '修改 主机名'
 sed -i "s/OpenWrt/N1/g" package/base-files/files/bin/config_generate
 
